@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const {
-  obtenerMayor,
+  obtenerMayoreeeeeeeee,
   mayoriaDeEdad,
   conection,
   saludo,
