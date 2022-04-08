@@ -206,11 +206,12 @@ function mesesDelAño(array) {
     nuevoArray.push(array[i]) 
   }
 }
-if (nuevoArray.length === 3) {
-  return nuevoArray
-} else { return "No se encontraron los meses pedidos"}
+for (i=0; i<nuevoArray.length; i++) {
+  if( nuevoArray.indexOf("Enero")==-1 || nuevoArray.indexOf("Marzo")==-1 || nuevoArray.indexOf("Noviembre")==-1) {
+    return "No se encontraron los meses pedidos"
+  } else { return nuevoArray}
 }
-
+}
 
 
 function mayorACien(array) {
@@ -238,13 +239,17 @@ function breakStatement(numero) {
   let numero2= numero
   let nuevoArr=[]
   let i=0
+  let f=0
   while (i<10) {
     i++
+    numero2 += 2
+    nuevoArr.push(numero2)
     if (numero2===i)
-      {return "Se interrumpió la ejecución"}
-      nuevoArr.push(numero2 += 2)
+      {f=1; break}
     } 
-  return nuevoArr
+  if (f===1) {return "Se interrumpió la ejecución"}
+  else {
+  return nuevoArr}
 }
 
 
