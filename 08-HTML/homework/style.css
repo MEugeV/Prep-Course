@@ -1,0 +1,36 @@
+h1 {
+    color: midnightblue
+}
+image {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: cadetblue;
+    padding: 50px;
+    border: solid 5px darkslategray 
+
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+img {
+    height: 250px;
+}
+
+div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+     }
+  
+body {
+background-image: url("https://i.pinimg.com/736x/a2/6a/5d/a26a5d7007f09387eaa581552384521f.jpg");
+}
+
+#divclass {
+background-color: white;
+}
